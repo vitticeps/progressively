@@ -17,7 +17,7 @@
   } else {
     root.progressively = factory(root)
   }
-})(this, function (root) {
+})(window||this, function (root) {
   'use strict'
 
   var progressively = {}
